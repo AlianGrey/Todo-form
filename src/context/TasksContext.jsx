@@ -19,6 +19,8 @@ export const TasksProvider = (props) => {
         newTaskInputRef,
         searchQuery,
         setSearchQuery,
+        disappearingTaskId,
+        appearingTaskId,
     } = useTasks()
     
     const {
@@ -42,6 +44,8 @@ export const TasksProvider = (props) => {
                 newTaskInputRef,
                 searchQuery,
                 setSearchQuery,
+                disappearingTaskId,
+                appearingTaskId,
             }}> 
              {children}
         </TasksContext.Provider>

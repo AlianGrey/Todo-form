@@ -1,4 +1,4 @@
-import { memo, useContext } from "react"
+import { memo, useContext, useRef } from "react"
 import { TasksContext } from "../../context/TasksContext"
 import RouterLink from "../RouterLink/RouterLink"
 import styles from './TodoItem.module.scss'
@@ -16,12 +16,19 @@ const TodoItem = (props) => {
     firstIncompleteTaskId,
     deleteTask,
     toggleTaskComplete,
+    disappearingTaskId,
+    appearingTaskId,
   } = useContext(TasksContext)
 
-    return ( 
+  return (
         <li 
-          className={`${styles.todoItem} ${className}`}  
-          ref={ id === firstIncompleteTaskId ? firstIncompleteTaskRef : null}
+          className={`
+            ${styles.todoItem} 
+            ${className}
+            ${disappearingTaskId === id ? styles.isDisappearing : ''}
+            ${appearingTaskId === id ? styles.isAppearing : ''}
+          `}  
+          ref={ id === firstIncompleteTaskId ? firstIncompleteTaskRef : null }
         >
           <input
             className={styles.checkbox}
@@ -45,7 +52,7 @@ const TodoItem = (props) => {
             className={styles.deleteButton}
             aria-label="Delete"
             title="Delete"
-            onClick = {()=> {deleteTask(id)}}
+            onClick = { () => deleteTask(id) }
           >
             <svg
               width="20"
