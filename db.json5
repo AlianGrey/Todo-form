@@ -1,1 +1,1 @@
-{tasks:[],$schema:'./node_modules/json-server/schema.json'}
+{tasks:[{id:'d7cd',title:'Вторая',isDone:false},{id:'1aa1',title:'Третяя',isDone:false},{id:'ce3e',title:'Первая',isDone:false},{id:'5e3c',title:'Пятая',isDone:false},{id:'c758',title:'вторая',isDone:false},{id:'52dc',title:'вторник',isDone:false},{id:'6a4f',title:'витя',isDone:false}],$schema:'./node_modules/json-server/schema.json'}
