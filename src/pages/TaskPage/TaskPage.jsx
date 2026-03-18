@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import tasksAPI from "@/shared/api/tasks/index"
 
-const TasksPage = (props) => {
+const TasksPage = (props) => { 
     const { params } = props
     const taskId = params.id
 
