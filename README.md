@@ -7,12 +7,14 @@ The project demonstrates modern frontend development practices including modular
 Users can manage tasks, search in real time, track progress and navigate between pages with tasks.
 
 ## 🚀 Demo
-![Todo_form](https://aliangrey.github.io/Todo-form/)
+GitHub Pages ToDo Project: [Todo_form](https://aliangrey.github.io/Todo-form/)
 
 ---
-
+- Add new task 
 ![add_task](src/screenshots/screenshot_addTask.png)
+- Live search for tasks
 ![live_search_task](src/screenshots/screenshot_searchTask.png)
+- Task page with status
 ![taskPage_withStatus](src/screenshots/screenshot_taskPage_withStatus.png)
 
 ---
