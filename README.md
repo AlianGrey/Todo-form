@@ -12,13 +12,13 @@ GitHub Pages ToDo Project: [Todo_form](https://aliangrey.github.io/Todo-form/)
 ---
 
 ### ➕ Add new task
-![Add Task](assets/screenshot_addTask.png)
+![Add Task](src/screenshots/screenshot_addTask.png)
 
 ### 🔍 Live search for tasks
-![Search](assets/screenshot_searchTask.png)
+![Search](src/screenshots/screenshot_searchTask.png)
 
 ### 📄 Task page with status
-![Task Page](assets/screenshot_taskPage_withStatus.png)
+![Task Page](src/screenshots/screenshot_taskPage_withStatus.png)
 
 ---
 
